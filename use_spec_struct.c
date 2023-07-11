@@ -18,7 +18,8 @@ int use_spec_struct(char format, va_list args)
 		{NULL, NULL},
 	};
 
-	int k = 0, int count = 0;
+	int k = 0;
+	int count = 0;
 
 	while (spec[k].spec)
 	{
