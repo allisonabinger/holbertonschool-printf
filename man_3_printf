@@ -1,0 +1,40 @@
+# **_printf Library Function Man**
+---
+
+## **Synopsis**
+-int (*find_spec(const char *format, va_list args));
+-int (*use_spec_struct(char format, va_list args);)
+-int (*check_spec(char format));
+-int get_dec(va_list args);
+-int get_string(va_list args);
+-int get_char(va_list args);
+---
+
+## **Description**
+_printf is a recreation of the standard library function, <printf>, which is used to print formatted
+to the standard output.T The string can contain specifiers that will communicate with the function on
+what exactly to print. In this function, the specifiers can include characters, strings, and integers.
+
+---
+
+### ** Specifiers **
+- %c	Prints a single character
+- %s	Prints a string
+- %d	Prints an integer (decimal notation)
+- %i	Prints an integer (decimal notation)
+- %%	Prints a single '%' character
+
+---
+
+#### **Return Value**
+
+_printf returns an integer, which is the numbers of characters printed by the function including the
+terminating null byte (/0) and a newline. 
+
+---
+
+##### **Author**
+
+Allison Binger : https://github.com/allisonabinger
+
+---
