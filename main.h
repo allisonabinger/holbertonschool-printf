@@ -27,6 +27,6 @@ int get_dec(va_list args);
 int get_string(va_list args);
 int check_spec(char format);
 int _putchar(char c);
-int main(void);
+int test(void);
 
 #endif
