@@ -11,7 +11,7 @@ int find_spec(const char *format, va_list args)
 	int count = 0;
 	int i = 0;
 
-	while(format && format[i])
+	while (format && format[i])
 	{
 		if (format[i] == %)
 		{
@@ -26,7 +26,7 @@ int find_spec(const char *format, va_list args)
 			}
 			else if (use_func(format[i]) == 0)
 			{
-				count += _putchar(%);
+				count += _putchar('%');
 				count += _putchar(format[i]);
 			}
 			else
