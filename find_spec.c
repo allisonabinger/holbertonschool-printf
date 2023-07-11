@@ -24,13 +24,13 @@ int find_spec(const char *format, va_list args)
 			{
 				count += _putchar('%');
 			}
-			else if (use_spec_struct(format[i]) == 0)
+			else if (check_spec(format[i]) == 0)
 			{
 				count += _putchar('%');
 				count += _putchar(format[i]);
 			}
 			else
-				count += use_spec_struct(format[i], args);
+				count += check_spec(format[i], args);
 		}
 		else
 			count += _putchar(format[k]);
