@@ -21,7 +21,7 @@ int get_string(va_list args)
 
 	for (i = 0; s[i]; i++)
 	{
-		st_char += _putchar(s[j]);
+		st_char += _putchar(s[i]);
 	}
 	return (st_char);
 	}
