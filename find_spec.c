@@ -33,8 +33,8 @@ int find_spec(const char *format, va_list args)
 				count += use_spec_struct(format[i], args);
 		}
 		else
-			count += _putchar(format[k]);
-		i++
+			count += _putchar(format[i]);
+		i++;
 	}
 	return (count);
 }

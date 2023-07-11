@@ -13,7 +13,7 @@ int get_dec(va_list args)
 	int count = 0;
 	int i = 10;
 
-	if (d == INT_MIN)
+	if (n == INT_MIN)
 	{
 		_putchar('-'); /**
 				 * dividing INT_MIN by 10 would result in overflow, which
@@ -30,7 +30,7 @@ int get_dec(va_list args)
 	{
 		_putchar('-');
 		count++;
-		n = -n
+		n = -n;
 	}
 	while (n / i >= 10)
 		i = i * 10;

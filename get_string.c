@@ -1,3 +1,7 @@
+#include "main.h"
+#include <stdarg.h>
+#include <stdio.h>
+#include <string.h>
 /**
  * get_string - function to print a string if specifier is 's'
  * @args: variable passed from _printf, should be 's'
