@@ -25,6 +25,7 @@ int use_spec_struct(char format, va_list args);
 int get_char(va_list args);
 int get_dec(va_list args);
 int get_string(va_list args);
+int check_spec(char format);
 int _putchar(char c);
 void main(char s);
 
