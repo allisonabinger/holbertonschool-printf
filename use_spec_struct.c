@@ -25,7 +25,7 @@ int use_spec_struct(char format, va_list args)
 	{
 		if (*spec[k].spec == format)
 		{
-			count = spec[k].f(args);
+			count = spec[k].form(args);
 		}
 		k++;
 	}
