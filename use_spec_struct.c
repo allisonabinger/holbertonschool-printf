@@ -10,7 +10,7 @@
  */
 int use_spec_struct(char format, va_list args)
 {
-	spec_t spec[] = {
+	spec_type spec[] = {
 		{"i", get_dec},
 		{"d", get_dec},
 		{"s", get_string},
