@@ -21,7 +21,7 @@ typedef struct specf
 
 int _printf(const char *format, ...);
 int find_spec(const char *format, va_list args);
-int use_spec(char format, va_list args);
+int use_spec_struct(char format, va_list args);
 int get_char(va_list args);
 int get_dec(va_list args);
 int get_string(va_list args);

@@ -28,5 +28,5 @@ int use_spec_struct(char format, va_list args)
 		}
 		k++;
 	}
-	return(count);
+	return (count);
 }
