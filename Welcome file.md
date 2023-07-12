@@ -67,8 +67,7 @@ The sequence of functions that are used for **_printf** can be understood by app
 
 ### Flowchart: How did we get here?
 
-
-
+<img width="1344" alt="Screenshot 2023-07-11 at 8 40 51 PM" src="https://github.com/allisonabinger/holbertonschool-printf/assets/127708538/9ae57884-9a2a-4fba-a109-97725ba413dd">
 
 
 ### What do the functions do?
